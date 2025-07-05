@@ -1,0 +1,94 @@
+# Archivos de entorno
+.env
+.env.*
+!.env.example
+secrets.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Base de datos
+*.db
+*.sqlite3
+*.sqlite
+chroma_db/
+"./chroma_db"*/
+*chroma_db*/
+
+# Logs
+*.log
+logs/
+
+# ChromaDB
+chroma_db/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/
+
+# Archivos temporales
+*.tmp
+*.bak
+*~
+
+# Archivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos de PyCharm
+.idea/
+
+# Archivos de VSCode
+.vscode/
+
+# Archivos de Jupyter
+.ipynb_checkpoints
